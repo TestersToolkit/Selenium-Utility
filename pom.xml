@@ -69,6 +69,13 @@
                     <version>3.0.0-M5</version>
 
                 <configuration>
+                    <parallel>methods</parallel>
+                    <useUnlimitedThreads>false</useUnlimitedThreads>
+                    <threadCount>4</threadCount>
+                    <testFailureIgnore>true</testFailureIgnore>
+                    <includes>
+                        <include>**/runners*.java</include>
+                    </includes>
 
 
                </configuration>
